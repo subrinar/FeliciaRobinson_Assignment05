@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Cloud Java</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="styles/normalize.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+	
+</head>
+	<body>
+
+	<header class="top">
+		<div class="container">
+			<nav>
+				<ul id="topnav">
+					<li><a href="#about" onclick="$('#about').animatescroll();">about</a></li>
+					<li><a href="#details" onclick="$('#details').animatescroll();">details</a></li>
+					<li><a href="#download" onclick="$('#download').animatescroll();">download</a></li>
+				</ul>
+			</nav>
+			<h1>Cloud Java  <br></h1>
+			<img class="pc" src="images/macbook.png">
+			<div class="forsmallscr"><button id="btn"><a href="#details">Try It Now</a></button></div>		 
+		</div>
+	</header>
+
+	<section id="myform"> 
+		<div class="container">
+			<h3>Join our newsletter and keep up-to-date</h3>
+			<form id="contactform" name="optionform" method="post" action="index.html"> 
+						<input type="text" name="name" id="email" class="contactform" placeholder="Name"> 
+						<input type="email" name="email" id="email" class="contactform" placeholder="Email Address...">
+						<button id="btn2">Submit</button>
+			</form>	
+		</div>
+	</section>
+	<section id="about">
+		<div class="container">
+			<div class="leftabout">
+				<h2>About Cloud Java</h2>
+				
+				<p> It's easy to learn Javascript. Cloud Java lets breaks it down easy for you to understand. In the end it will give you the code to insert in your js file. </p>
+			
+			</div>
+			<div class="rightabout"></div>
+		</div>
+	</section> 
+	<section id="details">
+		<div class="container">
+			<div id="drag" class="leftdetails">
+				<p>drag me <br>into the<br>square box</p>
+			</div>			
+			<div id="drop" class="rightdetails"></div>
+			<div id="result"> <p id="para">see your results here</p></div>				
+		</div>
+	</section>
+
+	<footer>
+		<div id="footr" class="container">			
+			<ul id="bottomnav">
+				<li><a href="#topnav">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#details">details</a></li>
+				<p>Copyright 2014</p>
+			</ul>   
+			 <div id="back-top">
+			<a href=".top" class="go-top"><span></span>Back to Top</a>				
+		</div>
+		</div>
+	</footer>
+	<script src="scripts/jquery.1.11.0.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>       	
+	<script src="scripts/main.js"></script>
+	<script src="scripts/animatescroll.js"></script>
+	</body>
+</html>
+
+
